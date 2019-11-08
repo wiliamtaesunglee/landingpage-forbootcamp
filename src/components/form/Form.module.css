@@ -1,7 +1,21 @@
 .form {
-  max-width:500px;
+  max-width:360px;
   color: white;
   margin: 0 auto;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 8px;
+}
+
+.nameInput {
+  width: 360px;
+  height:40px;
+  border-radius: 10px;
+  background-color:white;
+
 }
 
 

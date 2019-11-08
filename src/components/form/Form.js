@@ -2,9 +2,10 @@ import React from 'react'
 import style from './Form.module.css'
 
 const Form = () => (
+
   <form className={style.form}>
-    <p>Primeiro nome</p>
-    <input/>
+    <p className={style.name}>Primeiro nome</p>
+    <input className={style.nameInput}/>
 
     <p>Email</p>
     <input/>
@@ -14,6 +15,7 @@ const Form = () => (
 
     <button>Quero assistir!</button>
   </form>
+
 )
 
 export default Form;
