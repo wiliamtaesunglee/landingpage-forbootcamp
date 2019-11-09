@@ -6,6 +6,8 @@ import MainContent from './components/mainContent/MainContent';
 import Form from './components/form/Form'
 import CourseInfo from './components/courseInfo/CourseInfo'
 import Professor from './components/professor/Professor'
+import Calendar from './components/calendar/Calendar'
+
 function App() {
   return (
     <div className={styles.App}>
@@ -14,6 +16,7 @@ function App() {
       <Form/>
       <CourseInfo/>
       <Professor/>
+      <Calendar/>
     </div>
   );
 }

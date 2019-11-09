@@ -23,6 +23,8 @@ input[type=text]:focus {
   height:40px;
   border-radius: 10px;
   background-color:white;
+  border:none;
+
 }
 
 .nameInput::placeholder {
@@ -44,6 +46,8 @@ input[type=text]:focus {
   height:40px;
   border-radius: 10px;
   background-color:white;
+  border:none;
+
 }
 
 .emailInput::placeholder {
@@ -63,6 +67,8 @@ input[type=text]:focus {
   height:40px;
   border-radius: 10px;
   background-color:white;
+  border:none;
+
 }
 
 .whatsappInput::placeholder {

@@ -1,0 +1,27 @@
+.section {
+  background-color:white;
+  margin:0;
+
+}
+
+.div{
+  padding:10px;
+  max-width:500px;
+  margin:0 auto;
+}
+
+.title {
+  max-width:390px;
+  text-transform:uppercase;
+  letter-spacing:.3em;
+  line-height:35px;
+  margin:0;
+}
+
+.span {
+  width:90px;
+  height:10px;
+  background-color:#EB4249;
+  display:block;
+  margin-top: 10px;
+}
