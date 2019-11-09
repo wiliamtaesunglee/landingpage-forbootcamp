@@ -7,13 +7,13 @@ const Form = () => (
     <p className={style.name}>Primeiro nome</p>
     <input className={style.nameInput}/>
 
-    <p>Email</p>
-    <input/>
+    <p className={style.email}>Email</p>
+    <input className={style.emailInput}/>
 
-    <p>Whatsapp</p>
-    <input/>
+    <p className={style.whatsapp}>Whatsapp</p>
+    <input className={style.whatsappInput}/>
 
-    <button>Quero assistir!</button>
+    <button className={style.formButton}>Quero assistir!</button>
   </form>
 
 )
