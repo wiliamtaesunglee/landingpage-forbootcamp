@@ -2,12 +2,14 @@ import React from 'react'
 import style from './Professor.module.css'
 
 const Professor = () => (
-  <div>
-    <p>Quem é o professor?</p>
-    <span></span>
-    <img>
-    <h3>Laércio Refundini</h3>
-    <p></p>
+  <div className={style.container}>
+    <div className={style.professorDiv}>
+    <p className={style.title}>Quem é o professor?</p>
+    <span className={style.span}></span>
+    <img className={style.img} src='http://static.photongroup.com/protocolmass/bootcamp/professor-img.png'/>
+    <h3 className={style.name}>Laércio Refundini</h3>
+    <p className={style.text}>Podemos já vislumbrar o modo pelo qual o acompanhamento das preferências de consumo talvez venha a ressaltar a relatividade dos relacionamentos verticais entre as hierarquias.Podemos já vislumbrar o modo pelo qual o acompanhamento das preferências de consumo talvez venha a ressaltar a relatividade dos relacionamentos verticais entre as hierarquias.</p>
+   </div>
   </div>
 )
 
