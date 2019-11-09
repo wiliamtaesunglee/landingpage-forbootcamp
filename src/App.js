@@ -7,7 +7,7 @@ import Form from './components/form/Form'
 import CourseInfo from './components/courseInfo/CourseInfo'
 import Professor from './components/professor/Professor'
 import Calendar from './components/calendar/Calendar'
-
+import Footer from './components/footer/Footer'
 function App() {
   return (
     <div className={styles.App}>
@@ -17,6 +17,7 @@ function App() {
       <CourseInfo/>
       <Professor/>
       <Calendar/>
+      <Footer/>
     </div>
   );
 }

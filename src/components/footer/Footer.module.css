@@ -1,0 +1,14 @@
+.section {
+  background-color:white;
+
+}
+
+.div {
+  max-width:500px;
+  margin: 0 auto;
+  padding:10px;
+}
+
+.text {
+  font-size:18px;
+}
