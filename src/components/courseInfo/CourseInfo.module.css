@@ -1,0 +1,23 @@
+.courseInfoDiv {
+  width:500px;
+  max-width:100%;
+  margin: 20px auto;
+  padding: 10px;
+  color:white;
+}
+
+.title {
+  font-weight:bold;
+  font-size: 26px;
+}
+
+.separator {
+  display:block;
+  width:90px;
+  height:10px;
+  background-color:#ffff00;
+}
+
+.text {
+  font-size:20px
+}

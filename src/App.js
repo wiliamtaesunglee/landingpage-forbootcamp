@@ -4,6 +4,7 @@ import styles from './App.module.css';
 import Header from './components/header/Header'
 import MainContent from './components/mainContent/MainContent';
 import Form from './components/form/Form'
+import CourseInfo from './components/courseInfo/CourseInfo'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header/>
       <MainContent/>
       <Form/>
+      <CourseInfo/>
     </div>
   );
 }

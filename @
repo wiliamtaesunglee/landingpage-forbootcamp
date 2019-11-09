@@ -1,20 +1,12 @@
 import React from 'react'
-
-const MainContent = () => (
+import style from './CourseInfo.module.css'
+const CourseInfo = () => (
   <div>
-      <div>
-        <iframe
-          src='https://www.youtube.com/watch?v=ikyyreLfefQ&feature=emb_title'/>
-      </div>
-      <p>Podemos já vislumbrar o modo pelo qual o acompanhamento das preferências de consumo talvez venha a ressaltar a relatividade dos relacionamentos verticais entre as hierarquias.</p>
-
-      <ul>
-        <li>100% online</li>
-        <li>100% gratuíto</li>
-        <li>100% ao vivo</li>
-      </ul>
+    <h3>Todas estas questões, devidamente ponderadas, levantam dúvidas</h3>
+    <span></span>
+    <p>Podemos já vislumbrar o modo pelo qual o acompanhamento das preferências de consumo talvez venha a ressaltar a relatividade dos relacionamentos verticais entre as hierarquias.Podemos já vislumbrar o modo pelo qual o acompanhamento das preferências de consumo talvez venha a ressaltar a relatividade dos relacionamentos verticais entre as hierarquias.</p>
+    <p>Podemos já vislumbrar o modo pelo qual o acompanhamento das preferências de consumo talvez venha a ressaltar a relatividade dos relacionamentos verticais entre as hierarquias.Podemos já vislumbrar o modo pelo qual o acompanhamento das preferências de consumo talvez venha a ressaltar a relatividade dos relacionamentos verticais entre as hierarquias.</p>
   </div>
-
 )
 
-export default MainContent
+export default CourseInfo
