@@ -1,9 +1,53 @@
 .container {
-  margin-top: 30px;
+  margin: 30px auto;
   background-color:white;
 }
 
 .professorDiv {
-  margin: 0 auto;
+  width:500px;
+  max-width:100%;
+  margin:0 auto;
   padding: 10px;
+}
+
+.title {
+  font-size:26px;
+  text-transform: uppercase;
+}
+
+.span {
+  width:90px;
+  height:10px;
+  background-color: #EB4249;
+  display:block;
+}
+
+.img {
+  display:block;
+  width:330px;
+  max-width:100%;
+  margin:16px auto;
+}
+
+.spanName {
+  text-align:center;
+  margin: 32px auto 0 auto;
+  background:#EB4249;
+  width:330px;
+  height:64px;
+  max-width:100%;
+}
+
+.name {
+  font-size:20px;
+  text-transform: uppercase;
+  vertical-align:middle;
+  text-align: center;
+  display:inline-block;
+}
+
+.text {
+  margin-top:64px;
+  line-height:25px;
+  letter-spacing:.1em;
 }
