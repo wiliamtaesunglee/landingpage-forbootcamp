@@ -1,11 +1,10 @@
 .container {
-  margin: 30px auto;
+
   background-color:white;
 }
 
 .professorDiv {
-  width:500px;
-  max-width:100%;
+  max-width:500px;
   margin:0 auto;
   padding: 10px;
 }
@@ -47,6 +46,7 @@
 }
 
 .text {
+
   margin-top:64px;
   line-height:25px;
   letter-spacing:.1em;

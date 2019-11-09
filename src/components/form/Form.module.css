@@ -2,10 +2,10 @@
   max-width:500px;
   color: white;
   margin: 32px auto;
+  padding:10px;
 }
 
 input[type=text]:focus {
-  border-style:1px solid blue;
   color:rgba(0, 0, 0, 0.8);
   font-size:18px;
   font-weight:bold;
@@ -18,20 +18,17 @@ input[type=text]:focus {
 }
 
 .nameInput {
-  width: 500px;
-  max-width:100%;
+  padding:0;
+  width: 99%;
   height:40px;
   border-radius: 10px;
   background-color:white;
 }
 
 .nameInput::placeholder {
-  width:400px;
-  max-width:100%;
+
   font-size:18px;
   color:rgba(0, 0, 0, 0.4);
-  align-self:center;
-  padding-left:10px;
 }
 
 
@@ -42,20 +39,16 @@ input[type=text]:focus {
 }
 
 .emailInput {
-  width: 500px;
-  max-width:100%;
+  padding:0;
+  width:99%;
   height:40px;
   border-radius: 10px;
   background-color:white;
 }
 
 .emailInput::placeholder {
-  width:400px;
-  max-width:100%;
   font-size:18px;
   color:rgba(0, 0, 0, 0.4);
-  align-self:center;
-  padding-left:10px;
 }
 
 .whatsapp {
@@ -65,20 +58,16 @@ input[type=text]:focus {
 }
 
 .whatsappInput {
-  width: 500px;
-  max-width:100%;
+  padding:0;
+  width:99%;
   height:40px;
   border-radius: 10px;
   background-color:white;
 }
 
 .whatsappInput::placeholder {
-  width:400px;
-  max-width:100%;
   font-size:18px;
   color:rgba(0, 0, 0, 0.4);
-  align-self:center;
-  padding-left:10px;
 }
 
 
@@ -86,7 +75,7 @@ input[type=text]:focus {
   font-size: 30px;
   font-weight: bold;
   margin-top: 42px;
-  width: 500px;
+  width:500px;
   max-width:100%;
   height:60px;
   border-radius:30px;
