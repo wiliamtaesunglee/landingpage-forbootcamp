@@ -13,12 +13,12 @@ const DataFormValidation = (values) => {
       errors.name = 'required'
     }
     //phone
-    if (!values.phone.length !== 11) {
+    if (!values.phone) {
       errors.phone = 'required'
     } else if (
-      !/\d{2,}\d{5,}\d{4}/i.test(values.phone)
+      !/\d{11,}/i.test(values.phone)
     ){
-      errors.email = 'Telefone Inválido'
+      errors.phone = 'Telefone Inválido'
     }
 
 return errors
