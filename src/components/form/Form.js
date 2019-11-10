@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import style from './Form.module.css'
 import UseFormValidation from '../useFormValidation/UseFormValidation'
+import DataFormValidation from '../dataFormValidation/DataFormValidation'
 
 const INITIAL_STATE = {
   email: '',
@@ -9,12 +10,8 @@ const INITIAL_STATE = {
 }
 
 const Form = () => {
-  const { handleChange, values } = UseFormValidation(INITIAL_STATE)
+  const { handleSubmit, handleChange, values } = UseFormValidation(INITIAL_STATE, DataFormValidation)
 
-  const handleSubmit = (event) => {
-    event.preventDefault()
-    console.log('success', values)
-  }
   return (
   <form className={style.form} onSubmit={handleSubmit}>
     <label className={style.name}>Primeiro nome
