@@ -10,7 +10,7 @@ const INITIAL_STATE = {
 }
 
 const Form = () => {
-  const { handleSubmit, handleChange, values } = UseFormValidation(INITIAL_STATE, DataFormValidation)
+  const { handleSubmit, handleChange, values, isSubmittin, handleBlur, errors } = UseFormValidation(INITIAL_STATE, DataFormValidation)
 
   return (
   <form className={style.form} onSubmit={handleSubmit}>
@@ -22,7 +22,10 @@ const Form = () => {
         type="text"
         placeholder="Primeiro Nome"
         required
-        onChange={handleChange}/>
+        onChange={handleChange}
+        onBlur={handleBlur}
+      />
+      {errors.name && <p>campo nome não pode estar vazio</p>}
     </label>
     <label className={style.email}>Email
       <input
@@ -32,7 +35,10 @@ const Form = () => {
         type="text"
         placeholder="Email"
         required
-        onChange={handleChange}/>
+        onChange={handleChange}
+        onBlur={handleBlur}
+      />
+      {errors.email && <p>Valor inválido, favor colocar o seu email</p>}
     </label>
     <label className={style.whatsapp}>Whatsapp
       <input
@@ -42,9 +48,12 @@ const Form = () => {
         type="number"
         placeholder="Whatsapp"
         required
-        onChange={handleChange}/>
+        onChange={handleChange}
+        onBlur={handleBlur}
+      />
+      {errors.phone && <p>Favor colocar o DDD e seu número de celular</p>}
     </label>
-    <button className={style.formButton} type="submit" >Quero assistir!</button>
+    <button disabled={isSubmittin} className={style.formButton} type="submit" >Quero assistir!</button>
   </form>
 
 )

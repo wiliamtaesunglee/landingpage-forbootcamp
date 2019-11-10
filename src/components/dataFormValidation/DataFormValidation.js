@@ -4,9 +4,8 @@ const DataFormValidation = (values) => {
     if (!values.email) {
       errors.email = 'required'
     } else if (
-      !/^[A-Z0-9._%+-] + @[A-Z0-9.-] + [A-Z] {2,}$/i.test
-      (values.email)
-     ){
+       !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)
+    ){
       errors.email = 'Email Inválido'
     }
     //name
@@ -17,10 +16,9 @@ const DataFormValidation = (values) => {
     if (!values.phone.length !== 11) {
       errors.phone = 'required'
     } else if (
-      !/\(\d{2,}\) \d{4,}\-\d{4}/g.test
-      (values.email)
-    ) {
-      errors.email = 'Email Inválido'
+      !/\d{2,}\d{5,}\d{4}/i.test(values.phone)
+    ){
+      errors.email = 'Telefone Inválido'
     }
 
 return errors
