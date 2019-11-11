@@ -1,6 +1,7 @@
 {
   "name": "live-chalenge",
   "version": "0.1.0",
+  "homepage": "http://bootcamp",
   "private": true,
   "dependencies": {
     "react": "^16.11.0",
