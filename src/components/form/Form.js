@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import style from './Form.module.css'
 import UseFormValidation from '../useFormValidation/UseFormValidation'
 import DataFormValidation from '../dataFormValidation/DataFormValidation'
+import Alert from '../alert/Alert'
 
 const INITIAL_STATE = {
   email: '',
@@ -13,7 +14,9 @@ const Form = () => {
   const { handleSubmit, handleChange, values, isSubmittin, handleBlur, errors } = UseFormValidation(INITIAL_STATE, DataFormValidation)
 
   return (
-  <form className={style.form} onSubmit={handleSubmit}>
+
+   <form className={style.form} onSubmit={handleSubmit}>
+
     <label className={style.name}>Primeiro nome
       <input
         className={style.nameInput}
@@ -53,9 +56,12 @@ const Form = () => {
       />
       {errors.phone && <p>Favor colocar o DDD e seu número de celular</p>}
     </label>
-    <button disabled={isSubmittin} className={style.formButton} type="submit" >Quero assistir!</button>
-  </form>
 
+    <button disabled={isSubmittin} className={style.formButton} type="submit" >Quero assistir!</button>
+
+    </form>
 )
 }
+
+
 export default Form;

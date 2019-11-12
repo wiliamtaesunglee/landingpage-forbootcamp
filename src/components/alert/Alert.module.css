@@ -1,0 +1,21 @@
+
+
+.alert {
+  display:flex;
+  align-items:center;
+  background-color: #ffff00;
+  margin: 0 auto;
+  max-width: 400px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 0 0 40px black;
+}
+
+.alertText {
+
+  font-weight: bold;
+  margin:0 auto;
+  width: 350px;
+  color: black;
+  font-size: 28px;
+}

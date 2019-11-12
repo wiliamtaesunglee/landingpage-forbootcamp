@@ -5,12 +5,14 @@ const UseFormValidation = (initialState, validate) => {
   const [errors, setErrors] = useState({})
   const [isSubmittin, setSubmitting] = useState(false)
 
+
 useEffect(() => {
   if (isSubmittin) {
     const noErrors = Object.keys(errors).length === 0
     if(noErrors) {
       console.log('success', values)
       setSubmitting(false)
+
     } else {
       setSubmitting(false)
     }
@@ -34,7 +36,7 @@ useEffect(() => {
     const validationErrors = validate(values)
     setErrors(validationErrors)
     setSubmitting(true)
-    //console.log('success', values)
+
   }
 
   return {handleSubmit ,handleChange, values, handleBlur, errors, isSubmittin }
