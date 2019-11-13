@@ -1,0 +1,24 @@
+.div {
+
+  margin-top:30px;
+  display:flex;
+}
+
+.button {
+  width:500px;
+  max-width:100%;
+  background-color: #ffff00;
+  border-style: none;
+  height:60px;
+  border-radius: 30px;
+  font-size:18px;
+  margin: 0 auto;
+  font-weight:bold;
+  text-align:center;
+}
+
+.button p {
+  width:300px;
+  text-align:center;
+  margin:0 auto;
+}

@@ -12,7 +12,9 @@ const Cards = ({number, date, title, text}) => (
         <p className={style.date}>{date}</p>
       </div>
     </div>
-    <p className={style.text}>{text}</p>
+    <ul className={style.text}>
+      {text.map(a => <li> - {a}</li>)}
+    </ul>
   </div>
 )
 

@@ -10,8 +10,15 @@ const Professor = () => (
     <div className={style.spanName}>
     <h3 className={style.name}>Laércio Refundini</h3>
   </div>
-    <p className={style.text}>Podemos já vislumbrar o modo pelo qual o acompanhamento das preferências de consumo talvez venha a ressaltar a relatividade dos relacionamentos verticais entre as hierarquias.Podemos já vislumbrar o modo pelo qual o acompanhamento das preferências de consumo talvez venha a ressaltar a relatividade dos relacionamentos verticais entre as hierarquias.</p>
-
+  <p className={style.text}>
+   Laercio Refundini tem mais de 10 anos de experiência como personal trainer e se especializou em protocolos de hipertrofia muscular acelerada.
+  </p>
+  <p className={style.text}>
+    Criador do Programa de Hipertrofia Protocol Mass e do Programa de Youtube Dicas do Laercio, tem mais de 20 milhões de views no Youtube com 99.3% de aprovação e centenas de clientes que reportaram ganhos de até 4kg de massa muscular sem precisar de recursos ergogênicos.
+  </p>
+  <p className={style.text}>
+     Laercio também é palestrante na Fitness Brasil, uma das maiores feiras de esporte e wellness do país.
+  </p>
   </div>
   </section>
 )
