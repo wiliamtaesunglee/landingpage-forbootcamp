@@ -10,9 +10,15 @@ useEffect(() => {
   if (isSubmittin) {
     const noErrors = Object.keys(errors).length === 0
     if(noErrors) {
-      console.log('success', values)
-      setSubmitting(false)
+      fetch('https://napi.photongroup.com/lead', {
+          method: 'POST',
+          body: `Name=${values.name}&Email=${values.email}&Phone=${values.phone}&MachineCode=337425&EmailSequenceCode=768282&SequenceLevelCode=1`,
+          headers: new Headers({
+            'Content-Type': 'application/x-www-form-urlencoded'
+          })
+        })
 
+      console.log('success, lead insertion')
     } else {
       setSubmitting(false)
     }

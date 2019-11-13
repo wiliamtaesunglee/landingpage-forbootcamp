@@ -1,10 +1,11 @@
 
 
 .alert {
+
   display:flex;
   align-items:center;
   background-color: #ffff00;
-  margin: 0 auto;
+  margin: 20px auto;
   max-width: 400px;
   height: 200px;
   border-radius: 10px;

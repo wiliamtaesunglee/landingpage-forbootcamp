@@ -14,8 +14,9 @@ const Form = () => {
   const { handleSubmit, handleChange, values, isSubmittin, handleBlur, errors } = UseFormValidation(INITIAL_STATE, DataFormValidation)
 
   return (
-
-   <form className={style.form} onSubmit={handleSubmit}>
+   <div>
+     {isSubmittin ? <Alert/> :
+    <form className={style.form} onSubmit={handleSubmit}>
 
     <label className={style.name}>Primeiro nome
       <input
@@ -58,9 +59,10 @@ const Form = () => {
     </label>
 
     <button disabled={isSubmittin} className={style.formButton} type="submit" >Quero assistir!</button>
-
-    </form>
-)
+  </form>
+  }
+  </div>
+    )
 }
 
 
