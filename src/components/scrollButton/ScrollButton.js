@@ -8,7 +8,7 @@ const ScrollButton = () => {
 return (
 <div className={style.div}>
   <button className={style.button} onClick={isClicked}>
-    <p>Faça seu cadastro abaixo para receber a sequência de lives!</p>
+    <p>Faça seu cadastro para receber a sequência de lives!</p>
   </button>
 </div>
 )

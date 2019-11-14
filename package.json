@@ -1,7 +1,7 @@
 {
   "name": "live-chalenge",
   "version": "0.1.0",
-  "homepage": "https://aulagratis.protocolmass.com.br/bootcamp/",
+  "homepage": "https://aulagratis.protocolmass.com.br/semana-da-hipertrofia/",
   "private": true,
   "dependencies": {
     "react": "^16.11.0",
