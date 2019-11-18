@@ -1,7 +1,7 @@
 import React from 'react';
 import EmbedVideo from './components/embedVideo/EmbedVideo'
 import LandingPage from './LandingPage'
-import { Route, Switch } from 'react-router-dom'
+import { Route } from 'react-router-dom'
 function App() {
   return (
     <div>

@@ -1,0 +1,17 @@
+.video {
+  width:600px;
+  height:700px;
+  max-width: 100%;
+  margin: 30px auto;
+}
+
+.videoDiv {
+  height: 400px;
+}
+
+.facebookComents iframe {
+  margin-top: 30px;
+  height:100px;
+  width:600px;
+  max-width:100%;
+}
