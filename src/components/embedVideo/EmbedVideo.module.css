@@ -5,8 +5,21 @@
   margin: 30px auto;
 }
 
+.img {
+  text-align: center;
+}
+
+.img img {
+  margin:0 auto;
+}
+
 .videoDiv {
   height: 400px;
+}
+
+.facebookComents {
+  margin-top: 50px;
+  background-color: white;
 }
 
 .facebookComents iframe {
