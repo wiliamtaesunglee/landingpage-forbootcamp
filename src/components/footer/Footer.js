@@ -5,8 +5,8 @@ const Footer = () => (
 <section className={style.section}>
   <div className={style.div}>
 
-    <a className={style.logo} href=''>
-      <img src='http://static.photongroup.com/protocolmass/bootcamp/iridium-logo.png' />
+    <a className={style.logo} href='https://www.iridiumlabs.com.br/'>
+      <img alt='logo' src='http://static.photongroup.com/protocolmass/bootcamp/iridium-logo.png' />
     </a>
 
     <p className={style.text}>
@@ -19,15 +19,15 @@ const Footer = () => (
       Vem com a gente!
     </p>
     <a className={style.social} href="https://www.facebook.com/IridiumLabsBR/">
-      <img src='http://static.photongroup.com/protocolmass/bootcamp/facebook.png' />
+      <img alt='facebook' src='http://static.photongroup.com/protocolmass/bootcamp/facebook.png' />
     </a>
 
     <a className={style.social}  href="https://www.instagram.com/iridiumlabsbrasil/">
-      <img src='http://static.photongroup.com/protocolmass/bootcamp/instagram.png' />
+      <img alt='instagram' src='http://static.photongroup.com/protocolmass/bootcamp/instagram.png' />
     </a>
 
     <a className={style.social}  href="https://www.youtube.com/channel/UCcpHQ-vfrQ-BL9GjYafNmbg">
-      <img src='http://static.photongroup.com/protocolmass/bootcamp/yt.png' />
+      <img alt='youtube'  src='http://static.photongroup.com/protocolmass/bootcamp/yt.png' />
     </a>
 
   </div>

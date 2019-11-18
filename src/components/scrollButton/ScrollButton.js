@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import style from './ScrollButton.module.css'
 import StateButtonValidation from '../scrollButtonToUp/ScrollButtonToUp'
 
