@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 
 const StateButtonValidation = () => {
  const [clicked, setClicked] = useState(false)
@@ -9,7 +9,7 @@ useEffect(() => {
     window.scrollTo(4985 ,960)
   }
   setClicked(false)
-})
+}, [clicked])
 
 const isClicked = (event) => {
   event.preventDefault()

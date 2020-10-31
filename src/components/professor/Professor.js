@@ -6,7 +6,7 @@ const Professor = () => (
     <div className={style.professorDiv}>
     <p className={style.title}>Quem é o professor?</p>
     <span className={style.span}></span>
-    <img className={style.img} src='http://static.photongroup.com/protocolmass/bootcamp/professor-img.png'/>
+    <img className={style.img} src='http://static.photongroup.com/protocolmass/bootcamp/professor-img.png' alt='professor'/>
     <div className={style.spanName}>
     <h3 className={style.name}>Laércio Refundini</h3>
   </div>

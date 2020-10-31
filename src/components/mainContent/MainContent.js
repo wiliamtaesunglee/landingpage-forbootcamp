@@ -4,7 +4,7 @@ import style from './MainContent.module.css';
 const MainContent = () => (
   <div className={style.video}>
     <div className={style.videoDiv}>
-      <iframe className={style.embed} type="text/html" src='https://www.youtube.com/embed/pMdiF3AKNrY?autoplay=1&controls=1' width='100%' height='100%' frameborder='0'/>
+      <iframe className={style.embed} type="text/html" src='https://www.youtube.com/embed/pMdiF3AKNrY?autoplay=1&controls=1' width='100%' height='100%' frameborder='0' title='course presentation'/>
     </div>
 
     <h1 className={style.objectiveTime}>Acelere seus resultados sem botar a mão no bolso!</h1>
